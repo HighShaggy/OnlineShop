@@ -1,0 +1,38 @@
+[
+  {
+    "ProductList": [
+      {
+        "Product": {
+          "Id": 1,
+          "Name": "Xtrfy Retro Edition",
+          "Description": "Ультра-легкая конструкция Уникальный, праворукий дизайн Сенсор pixart 3389 Провод xtrfy ezcord",
+          "Cost": 6999.0,
+          "ImagePath": "~/images/products/XtrfyRetro.webp"
+        },
+        "Quantity": 1
+      }
+    ],
+    "OrderId": 1,
+    "CustomerName": "sf",
+    "ShippingAddress": "3",
+    "OrderStatus": 1
+  },
+  {
+    "ProductList": [
+      {
+        "Product": {
+          "Id": 1,
+          "Name": "Xtrfy Retro Edition",
+          "Description": "Ультра-легкая конструкция Уникальный, праворукий дизайн Сенсор pixart 3389 Провод xtrfy ezcord",
+          "Cost": 6999.0,
+          "ImagePath": "~/images/products/XtrfyRetro.webp"
+        },
+        "Quantity": 3
+      }
+    ],
+    "OrderId": 2,
+    "CustomerName": "asd",
+    "ShippingAddress": "2",
+    "OrderStatus": 3
+  }
+]

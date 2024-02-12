@@ -1,0 +1,222 @@
+2023-10-30 16:21:43.147 +03:00 [INF] Executed action OnlineShopWebApp.Areas.Admin.Controllers.UserController.WatchUsers (OnlineShopWebApp) in 16.3097ms
+2023-10-30 16:21:43.151 +03:00 [INF] Executed endpoint 'OnlineShopWebApp.Areas.Admin.Controllers.UserController.WatchUsers (OnlineShopWebApp)'
+2023-10-30 16:21:43.154 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/admin/User/WatchUsers - - - 200 - text/html;+charset=utf-8 23.9684ms
+2023-10-30 16:21:43.175 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-10-30 16:21:43.179 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.4816ms
+2023-10-30 16:21:43.190 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 16:21:43.190 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 0.3714ms
+2023-10-30 16:21:46.841 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Admin/User/AddUserForm - -
+2023-10-30 16:21:46.842 +03:00 [INF] Request: GET /Admin/User/AddUserForm
+2023-10-30 16:21:46.842 +03:00 [INF] Executing endpoint 'OnlineShopWebApp.Areas.Admin.Controllers.UserController.AddUserForm (OnlineShopWebApp)'
+2023-10-30 16:21:46.842 +03:00 [INF] Route matched with {area = "admin", action = "AddUserForm", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddUserForm() on controller OnlineShopWebApp.Areas.Admin.Controllers.UserController (OnlineShopWebApp).
+2023-10-30 16:21:46.843 +03:00 [INF] Executing ViewResult, running view AddUserForm.
+2023-10-30 16:21:46.852 +03:00 [INF] Executed ViewResult - view AddUserForm executed in 8.8662ms.
+2023-10-30 16:21:46.852 +03:00 [INF] Executed action OnlineShopWebApp.Areas.Admin.Controllers.UserController.AddUserForm (OnlineShopWebApp) in 9.166ms
+2023-10-30 16:21:46.852 +03:00 [INF] Executed endpoint 'OnlineShopWebApp.Areas.Admin.Controllers.UserController.AddUserForm (OnlineShopWebApp)'
+2023-10-30 16:21:46.855 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Admin/User/AddUserForm - - - 200 - text/html;+charset=utf-8 14.5415ms
+2023-10-30 16:21:46.871 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-10-30 16:21:46.875 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.0568ms
+2023-10-30 16:21:46.882 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 16:21:46.882 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 0.4489ms
+2023-10-30 16:21:53.481 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/Admin/User/AddUser application/x-www-form-urlencoded 255
+2023-10-30 16:21:53.482 +03:00 [INF] Request: POST /Admin/User/AddUser
+2023-10-30 16:21:53.482 +03:00 [INF] Executing endpoint 'OnlineShopWebApp.Areas.Admin.Controllers.UserController.AddUser (OnlineShopWebApp)'
+2023-10-30 16:21:53.482 +03:00 [INF] Route matched with {area = "admin", action = "AddUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddUser(System.String, System.String) on controller OnlineShopWebApp.Areas.Admin.Controllers.UserController (OnlineShopWebApp).
+2023-10-30 16:21:53.485 +03:00 [INF] Executing RedirectResult, redirecting to /admin/User/WatchUsers.
+2023-10-30 16:21:53.485 +03:00 [INF] Executed action OnlineShopWebApp.Areas.Admin.Controllers.UserController.AddUser (OnlineShopWebApp) in 2.318ms
+2023-10-30 16:21:53.485 +03:00 [INF] Executed endpoint 'OnlineShopWebApp.Areas.Admin.Controllers.UserController.AddUser (OnlineShopWebApp)'
+2023-10-30 16:21:53.485 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/Admin/User/AddUser application/x-www-form-urlencoded 255 - 302 0 - 4.2232ms
+2023-10-30 16:21:53.488 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/admin/User/WatchUsers - -
+2023-10-30 16:21:53.489 +03:00 [INF] Request: GET /admin/User/WatchUsers
+2023-10-30 16:21:53.490 +03:00 [INF] Executing endpoint 'OnlineShopWebApp.Areas.Admin.Controllers.UserController.WatchUsers (OnlineShopWebApp)'
+2023-10-30 16:21:53.490 +03:00 [INF] Route matched with {area = "admin", action = "WatchUsers", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult WatchUsers() on controller OnlineShopWebApp.Areas.Admin.Controllers.UserController (OnlineShopWebApp).
+2023-10-30 16:21:53.490 +03:00 [INF] Executing ViewResult, running view WatchUsers.
+2023-10-30 16:21:53.496 +03:00 [INF] Executed ViewResult - view WatchUsers executed in 5.6798ms.
+2023-10-30 16:21:53.496 +03:00 [INF] Executed action OnlineShopWebApp.Areas.Admin.Controllers.UserController.WatchUsers (OnlineShopWebApp) in 6.214ms
+2023-10-30 16:21:53.496 +03:00 [INF] Executed endpoint 'OnlineShopWebApp.Areas.Admin.Controllers.UserController.WatchUsers (OnlineShopWebApp)'
+2023-10-30 16:21:53.499 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/admin/User/WatchUsers - - - 200 - text/html;+charset=utf-8 10.5146ms
+2023-10-30 16:21:53.515 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-10-30 16:21:53.519 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.6889ms
+2023-10-30 16:21:53.533 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 16:21:53.533 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 0.5119ms
+2023-10-30 16:22:04.302 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Admin/User/WatchUserInfo/2 - -
+2023-10-30 16:22:04.304 +03:00 [INF] Request: GET /Admin/User/WatchUserInfo/2
+2023-10-30 16:22:04.304 +03:00 [INF] Executing endpoint 'OnlineShopWebApp.Areas.Admin.Controllers.UserController.WatchUserInfo (OnlineShopWebApp)'
+2023-10-30 16:22:04.307 +03:00 [INF] Route matched with {area = "admin", action = "WatchUserInfo", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult WatchUserInfo(Int32) on controller OnlineShopWebApp.Areas.Admin.Controllers.UserController (OnlineShopWebApp).
+2023-10-30 16:22:04.309 +03:00 [INF] Executing ViewResult, running view WatchUserInfo.
+2023-10-30 16:22:04.322 +03:00 [INF] Executed ViewResult - view WatchUserInfo executed in 12.9388ms.
+2023-10-30 16:22:04.322 +03:00 [INF] Executed action OnlineShopWebApp.Areas.Admin.Controllers.UserController.WatchUserInfo (OnlineShopWebApp) in 15.0753ms
+2023-10-30 16:22:04.322 +03:00 [INF] Executed endpoint 'OnlineShopWebApp.Areas.Admin.Controllers.UserController.WatchUserInfo (OnlineShopWebApp)'
+2023-10-30 16:22:04.325 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Admin/User/WatchUserInfo/2 - - - 200 - text/html;+charset=utf-8 22.9228ms
+2023-10-30 16:22:04.342 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/DropDownStyle.css - -
+2023-10-30 16:22:04.348 +03:00 [INF] The file /css/DropDownStyle.css was not modified
+2023-10-30 16:22:04.349 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/css/DropDownStyle.css - - - 304 - text/css 6.1844ms
+2023-10-30 16:22:04.356 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 16:22:04.357 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-10-30 16:22:04.363 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 7.0466ms
+2023-10-30 16:22:04.366 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.3089ms
+2023-10-30 16:22:15.318 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Admin/User/DeleteUser/2 - -
+2023-10-30 16:22:15.319 +03:00 [INF] Request: GET /Admin/User/DeleteUser/2
+2023-10-30 16:22:15.319 +03:00 [INF] Executing endpoint 'OnlineShopWebApp.Areas.Admin.Controllers.UserController.DeleteUser (OnlineShopWebApp)'
+2023-10-30 16:22:15.321 +03:00 [INF] Route matched with {area = "admin", action = "DeleteUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteUser(Int32) on controller OnlineShopWebApp.Areas.Admin.Controllers.UserController (OnlineShopWebApp).
+2023-10-30 16:22:15.324 +03:00 [INF] Executing RedirectResult, redirecting to /admin/User/WatchUsers.
+2023-10-30 16:22:15.324 +03:00 [INF] Executed action OnlineShopWebApp.Areas.Admin.Controllers.UserController.DeleteUser (OnlineShopWebApp) in 2.8249ms
+2023-10-30 16:22:15.324 +03:00 [INF] Executed endpoint 'OnlineShopWebApp.Areas.Admin.Controllers.UserController.DeleteUser (OnlineShopWebApp)'
+2023-10-30 16:22:15.324 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Admin/User/DeleteUser/2 - - - 302 0 - 6.6776ms
+2023-10-30 16:22:15.327 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/admin/User/WatchUsers - -
+2023-10-30 16:22:15.328 +03:00 [INF] Request: GET /admin/User/WatchUsers
+2023-10-30 16:22:15.328 +03:00 [INF] Executing endpoint 'OnlineShopWebApp.Areas.Admin.Controllers.UserController.WatchUsers (OnlineShopWebApp)'
+2023-10-30 16:22:15.328 +03:00 [INF] Route matched with {area = "admin", action = "WatchUsers", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult WatchUsers() on controller OnlineShopWebApp.Areas.Admin.Controllers.UserController (OnlineShopWebApp).
+2023-10-30 16:22:15.328 +03:00 [INF] Executing ViewResult, running view WatchUsers.
+2023-10-30 16:22:15.333 +03:00 [INF] Executed ViewResult - view WatchUsers executed in 5.1107ms.
+2023-10-30 16:22:15.334 +03:00 [INF] Executed action OnlineShopWebApp.Areas.Admin.Controllers.UserController.WatchUsers (OnlineShopWebApp) in 5.5591ms
+2023-10-30 16:22:15.334 +03:00 [INF] Executed endpoint 'OnlineShopWebApp.Areas.Admin.Controllers.UserController.WatchUsers (OnlineShopWebApp)'
+2023-10-30 16:22:15.337 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/admin/User/WatchUsers - - - 200 - text/html;+charset=utf-8 10.0478ms
+2023-10-30 16:22:15.352 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-10-30 16:22:15.356 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.0443ms
+2023-10-30 16:22:15.366 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 16:22:15.367 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 0.6013ms
+2023-10-30 16:22:17.207 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2023-10-30 16:22:17.208 +03:00 [INF] Request: GET /
+2023-10-30 16:22:17.208 +03:00 [INF] Executing endpoint 'OnlineShopWebApp.Controllers.HomeController.Index (OnlineShopWebApp)'
+2023-10-30 16:22:17.208 +03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.Nullable`1[System.Int32]) on controller OnlineShopWebApp.Controllers.HomeController (OnlineShopWebApp).
+2023-10-30 16:22:17.211 +03:00 [INF] Executing ViewResult, running view Index.
+2023-10-30 16:22:17.219 +03:00 [INF] Executed ViewResult - view Index executed in 8.4212ms.
+2023-10-30 16:22:17.220 +03:00 [INF] Executed action OnlineShopWebApp.Controllers.HomeController.Index (OnlineShopWebApp) in 11.7262ms
+2023-10-30 16:22:17.221 +03:00 [INF] Executed endpoint 'OnlineShopWebApp.Controllers.HomeController.Index (OnlineShopWebApp)'
+2023-10-30 16:22:17.226 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 19.2731ms
+2023-10-30 16:22:17.274 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 16:22:17.274 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 0.3725ms
+2023-10-30 16:22:17.278 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-10-30 16:22:17.308 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.1206ms
+2023-10-30 16:26:31.891 +03:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-30 16:26:32.309 +03:00 [INF] Now listening on: https://localhost:5001
+2023-10-30 16:26:32.315 +03:00 [INF] Now listening on: http://localhost:5000
+2023-10-30 16:26:32.315 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-30 16:26:32.315 +03:00 [INF] Hosting environment: Development
+2023-10-30 16:26:32.315 +03:00 [INF] Content root path: C:\Users\user\Source\Repos\ASP.NET_Core_6.0_kurators\OnlineShop\OnlineShopWebApp
+2023-10-30 16:26:32.787 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2023-10-30 16:26:32.846 +03:00 [INF] Request: GET /
+2023-10-30 16:26:32.847 +03:00 [INF] Executing endpoint 'OnlineShopWebApp.Controllers.HomeController.Index (OnlineShopWebApp)'
+2023-10-30 16:26:32.893 +03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.Nullable`1[System.Int32]) on controller OnlineShopWebApp.Controllers.HomeController (OnlineShopWebApp).
+2023-10-30 16:26:33.146 +03:00 [INF] Executing ViewResult, running view Index.
+2023-10-30 16:26:33.350 +03:00 [INF] Executed ViewResult - view Index executed in 203.4871ms.
+2023-10-30 16:26:33.353 +03:00 [INF] Executed action OnlineShopWebApp.Controllers.HomeController.Index (OnlineShopWebApp) in 460.1577ms
+2023-10-30 16:26:33.354 +03:00 [INF] Executed endpoint 'OnlineShopWebApp.Controllers.HomeController.Index (OnlineShopWebApp)'
+2023-10-30 16:26:33.377 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 592.8420ms
+2023-10-30 16:26:33.477 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 16:26:33.477 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-10-30 16:26:33.481 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 3.2110ms
+2023-10-30 16:26:33.491 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.8100ms
+2023-10-30 16:26:35.877 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Admin/Admin/AdminPanel - -
+2023-10-30 16:26:35.881 +03:00 [INF] Request: GET /Admin/Admin/AdminPanel
+2023-10-30 16:26:35.881 +03:00 [INF] Executing endpoint 'OnlineShopWebApp.Areas.Admin.Controllers.AdminController.AdminPanel (OnlineShopWebApp)'
+2023-10-30 16:26:35.884 +03:00 [INF] Route matched with {area = "admin", action = "AdminPanel", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AdminPanel() on controller OnlineShopWebApp.Areas.Admin.Controllers.AdminController (OnlineShopWebApp).
+2023-10-30 16:26:35.885 +03:00 [INF] Executing ViewResult, running view AdminPanel.
+2023-10-30 16:26:35.903 +03:00 [INF] Executed ViewResult - view AdminPanel executed in 18.1734ms.
+2023-10-30 16:26:35.903 +03:00 [INF] Executed action OnlineShopWebApp.Areas.Admin.Controllers.AdminController.AdminPanel (OnlineShopWebApp) in 18.9903ms
+2023-10-30 16:26:35.903 +03:00 [INF] Executed endpoint 'OnlineShopWebApp.Areas.Admin.Controllers.AdminController.AdminPanel (OnlineShopWebApp)'
+2023-10-30 16:26:35.906 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Admin/Admin/AdminPanel - - - 200 - text/html;+charset=utf-8 29.0622ms
+2023-10-30 16:26:35.924 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-10-30 16:26:35.928 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.6726ms
+2023-10-30 16:26:35.938 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 16:26:35.940 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 1.6655ms
+2023-10-30 16:26:37.090 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Admin/Admin/WatchOrders - -
+2023-10-30 16:26:37.095 +03:00 [INF] Request: GET /Admin/Admin/WatchOrders
+2023-10-30 16:26:37.095 +03:00 [INF] Executing endpoint 'OnlineShopWebApp.Areas.Admin.Controllers.AdminController.WatchOrders (OnlineShopWebApp)'
+2023-10-30 16:26:37.097 +03:00 [INF] Route matched with {area = "admin", action = "WatchOrders", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult WatchOrders() on controller OnlineShopWebApp.Areas.Admin.Controllers.AdminController (OnlineShopWebApp).
+2023-10-30 16:26:37.113 +03:00 [INF] Executing ViewResult, running view WatchOrders.
+2023-10-30 16:26:37.131 +03:00 [INF] Executed ViewResult - view WatchOrders executed in 17.6094ms.
+2023-10-30 16:26:37.131 +03:00 [INF] Executed action OnlineShopWebApp.Areas.Admin.Controllers.AdminController.WatchOrders (OnlineShopWebApp) in 34.1714ms
+2023-10-30 16:26:37.131 +03:00 [INF] Executed endpoint 'OnlineShopWebApp.Areas.Admin.Controllers.AdminController.WatchOrders (OnlineShopWebApp)'
+2023-10-30 16:26:37.134 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Admin/Admin/WatchOrders - - - 200 - text/html;+charset=utf-8 43.6610ms
+2023-10-30 16:26:37.158 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-10-30 16:26:37.162 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.8720ms
+2023-10-30 16:26:37.169 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 16:26:37.169 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 0.7532ms
+2023-10-30 16:26:38.307 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2023-10-30 16:26:38.308 +03:00 [INF] Request: GET /
+2023-10-30 16:26:38.308 +03:00 [INF] Executing endpoint 'OnlineShopWebApp.Controllers.HomeController.Index (OnlineShopWebApp)'
+2023-10-30 16:26:38.309 +03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.Nullable`1[System.Int32]) on controller OnlineShopWebApp.Controllers.HomeController (OnlineShopWebApp).
+2023-10-30 16:26:38.311 +03:00 [INF] Executing ViewResult, running view Index.
+2023-10-30 16:26:38.319 +03:00 [INF] Executed ViewResult - view Index executed in 7.9101ms.
+2023-10-30 16:26:38.319 +03:00 [INF] Executed action OnlineShopWebApp.Controllers.HomeController.Index (OnlineShopWebApp) in 10.2531ms
+2023-10-30 16:26:38.319 +03:00 [INF] Executed endpoint 'OnlineShopWebApp.Controllers.HomeController.Index (OnlineShopWebApp)'
+2023-10-30 16:26:38.325 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 17.5731ms
+2023-10-30 16:26:38.345 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-10-30 16:26:38.363 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 16:26:38.363 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 0.5441ms
+2023-10-30 16:26:38.364 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.2174ms
+2023-10-30 16:26:39.116 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Admin/Admin/AdminPanel - -
+2023-10-30 16:26:39.118 +03:00 [INF] Request: GET /Admin/Admin/AdminPanel
+2023-10-30 16:26:39.118 +03:00 [INF] Executing endpoint 'OnlineShopWebApp.Areas.Admin.Controllers.AdminController.AdminPanel (OnlineShopWebApp)'
+2023-10-30 16:26:39.118 +03:00 [INF] Route matched with {area = "admin", action = "AdminPanel", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AdminPanel() on controller OnlineShopWebApp.Areas.Admin.Controllers.AdminController (OnlineShopWebApp).
+2023-10-30 16:26:39.119 +03:00 [INF] Executing ViewResult, running view AdminPanel.
+2023-10-30 16:26:39.128 +03:00 [INF] Executed ViewResult - view AdminPanel executed in 8.8937ms.
+2023-10-30 16:26:39.128 +03:00 [INF] Executed action OnlineShopWebApp.Areas.Admin.Controllers.AdminController.AdminPanel (OnlineShopWebApp) in 9.5467ms
+2023-10-30 16:26:39.128 +03:00 [INF] Executed endpoint 'OnlineShopWebApp.Areas.Admin.Controllers.AdminController.AdminPanel (OnlineShopWebApp)'
+2023-10-30 16:26:39.131 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Admin/Admin/AdminPanel - - - 200 - text/html;+charset=utf-8 14.1750ms
+2023-10-30 16:26:39.155 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-10-30 16:26:39.159 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.3783ms
+2023-10-30 16:26:39.187 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 16:26:39.190 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 3.8120ms
+2023-10-30 16:26:39.786 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Admin/User/WatchUsers - -
+2023-10-30 16:26:39.788 +03:00 [INF] Request: GET /Admin/User/WatchUsers
+2023-10-30 16:26:39.788 +03:00 [INF] Executing endpoint 'OnlineShopWebApp.Areas.Admin.Controllers.UserController.WatchUsers (OnlineShopWebApp)'
+2023-10-30 16:26:39.791 +03:00 [INF] Route matched with {area = "admin", action = "WatchUsers", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult WatchUsers() on controller OnlineShopWebApp.Areas.Admin.Controllers.UserController (OnlineShopWebApp).
+2023-10-30 16:26:39.795 +03:00 [INF] Executing ViewResult, running view WatchUsers.
+2023-10-30 16:26:39.805 +03:00 [INF] Executed ViewResult - view WatchUsers executed in 10.5105ms.
+2023-10-30 16:26:39.806 +03:00 [INF] Executed action OnlineShopWebApp.Areas.Admin.Controllers.UserController.WatchUsers (OnlineShopWebApp) in 14.6973ms
+2023-10-30 16:26:39.806 +03:00 [INF] Executed endpoint 'OnlineShopWebApp.Areas.Admin.Controllers.UserController.WatchUsers (OnlineShopWebApp)'
+2023-10-30 16:26:39.809 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Admin/User/WatchUsers - - - 200 - text/html;+charset=utf-8 23.4778ms
+2023-10-30 16:26:39.826 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-10-30 16:26:39.829 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.8996ms
+2023-10-30 16:26:39.847 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 16:26:39.847 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 0.3746ms
+2023-10-30 16:26:49.629 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Admin/User/WatchUserInfo/1 - -
+2023-10-30 16:26:49.632 +03:00 [INF] Request: GET /Admin/User/WatchUserInfo/1
+2023-10-30 16:26:49.632 +03:00 [INF] Executing endpoint 'OnlineShopWebApp.Areas.Admin.Controllers.UserController.WatchUserInfo (OnlineShopWebApp)'
+2023-10-30 16:26:49.635 +03:00 [INF] Route matched with {area = "admin", action = "WatchUserInfo", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult WatchUserInfo(Int32) on controller OnlineShopWebApp.Areas.Admin.Controllers.UserController (OnlineShopWebApp).
+2023-10-30 16:26:49.638 +03:00 [INF] Executing ViewResult, running view WatchUserInfo.
+2023-10-30 16:26:49.651 +03:00 [INF] Executed ViewResult - view WatchUserInfo executed in 13.9676ms.
+2023-10-30 16:26:49.651 +03:00 [INF] Executed action OnlineShopWebApp.Areas.Admin.Controllers.UserController.WatchUserInfo (OnlineShopWebApp) in 16.4412ms
+2023-10-30 16:26:49.652 +03:00 [INF] Executed endpoint 'OnlineShopWebApp.Areas.Admin.Controllers.UserController.WatchUserInfo (OnlineShopWebApp)'
+2023-10-30 16:26:49.654 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Admin/User/WatchUserInfo/1 - - - 200 - text/html;+charset=utf-8 25.4465ms
+2023-10-30 16:26:49.694 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 16:26:49.694 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-10-30 16:26:49.694 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 0.6707ms
+2023-10-30 16:26:49.698 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.7211ms
+2023-10-30 16:27:00.604 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Admin/User/DeleteUser/1 - -
+2023-10-30 16:27:00.605 +03:00 [INF] Request: GET /Admin/User/DeleteUser/1
+2023-10-30 16:27:00.605 +03:00 [INF] Executing endpoint 'OnlineShopWebApp.Areas.Admin.Controllers.UserController.DeleteUser (OnlineShopWebApp)'
+2023-10-30 16:27:00.607 +03:00 [INF] Route matched with {area = "admin", action = "DeleteUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteUser(Int32) on controller OnlineShopWebApp.Areas.Admin.Controllers.UserController (OnlineShopWebApp).
+2023-10-30 16:27:00.627 +03:00 [INF] Executing RedirectResult, redirecting to /admin/User/WatchUsers.
+2023-10-30 16:27:00.628 +03:00 [INF] Executed action OnlineShopWebApp.Areas.Admin.Controllers.UserController.DeleteUser (OnlineShopWebApp) in 20.6398ms
+2023-10-30 16:27:00.628 +03:00 [INF] Executed endpoint 'OnlineShopWebApp.Areas.Admin.Controllers.UserController.DeleteUser (OnlineShopWebApp)'
+2023-10-30 16:27:00.629 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Admin/User/DeleteUser/1 - - - 302 0 - 25.1669ms
+2023-10-30 16:27:00.632 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/admin/User/WatchUsers - -
+2023-10-30 16:27:00.633 +03:00 [INF] Request: GET /admin/User/WatchUsers
+2023-10-30 16:27:00.633 +03:00 [INF] Executing endpoint 'OnlineShopWebApp.Areas.Admin.Controllers.UserController.WatchUsers (OnlineShopWebApp)'
+2023-10-30 16:27:00.633 +03:00 [INF] Route matched with {area = "admin", action = "WatchUsers", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult WatchUsers() on controller OnlineShopWebApp.Areas.Admin.Controllers.UserController (OnlineShopWebApp).
+2023-10-30 16:27:00.633 +03:00 [INF] Executing ViewResult, running view WatchUsers.
+2023-10-30 16:27:00.641 +03:00 [INF] Executed ViewResult - view WatchUsers executed in 8.0004ms.
+2023-10-30 16:27:00.642 +03:00 [INF] Executed action OnlineShopWebApp.Areas.Admin.Controllers.UserController.WatchUsers (OnlineShopWebApp) in 8.7115ms
+2023-10-30 16:27:00.642 +03:00 [INF] Executed endpoint 'OnlineShopWebApp.Areas.Admin.Controllers.UserController.WatchUsers (OnlineShopWebApp)'
+2023-10-30 16:27:00.645 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/admin/User/WatchUsers - - - 200 - text/html;+charset=utf-8 13.1629ms
+2023-10-30 16:27:00.659 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-10-30 16:27:00.662 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.1718ms
+2023-10-30 16:27:00.675 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 16:27:00.675 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 0.4733ms
+2023-10-30 16:27:03.681 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2023-10-30 16:27:03.682 +03:00 [INF] Request: GET /
+2023-10-30 16:27:03.682 +03:00 [INF] Executing endpoint 'OnlineShopWebApp.Controllers.HomeController.Index (OnlineShopWebApp)'
+2023-10-30 16:27:03.683 +03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.Nullable`1[System.Int32]) on controller OnlineShopWebApp.Controllers.HomeController (OnlineShopWebApp).
+2023-10-30 16:27:03.685 +03:00 [INF] Executing ViewResult, running view Index.
+2023-10-30 16:27:03.695 +03:00 [INF] Executed ViewResult - view Index executed in 9.7748ms.
+2023-10-30 16:27:03.695 +03:00 [INF] Executed action OnlineShopWebApp.Controllers.HomeController.Index (OnlineShopWebApp) in 12.5182ms
+2023-10-30 16:27:03.695 +03:00 [INF] Executed endpoint 'OnlineShopWebApp.Controllers.HomeController.Index (OnlineShopWebApp)'
+2023-10-30 16:27:03.699 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 18.1641ms
+2023-10-30 16:27:03.747 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 16:27:03.747 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12364 application/javascript;+charset=utf-8 0.4028ms
+2023-10-30 16:27:03.750 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-10-30 16:27:03.757 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.4028ms

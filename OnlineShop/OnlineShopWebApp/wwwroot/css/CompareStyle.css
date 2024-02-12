@@ -1,0 +1,86 @@
+﻿.remove-button {
+    background-color: #e74c3c; /* Red background color */
+}
+
+.add-button {
+    background-color: #27ae60; /* Green background color */
+}
+.button-clear {
+    background-color: #000; 
+    color: #fff; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    font-weight: bold; 
+}
+
+    .remove-button:hover,
+    .add-button:hover {
+        background-color: #c0392b; /* Darker red on hover for "Удалить из сравнения" */
+    }
+
+/* Rest of your existing styles... */
+.comparison-container {
+    margin: 20px;
+}
+
+/* Style for the comparison table */
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f0f0f0;
+}
+
+    /* Style for table header cells */
+    .comparison-table th {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: left;
+    }
+
+    /* Style for table body cells */
+    .comparison-table td {
+        border: 1px solid #ccc;
+        padding: 10px;
+        vertical-align: top;
+    }
+
+/* Style for product name */
+.product-info h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Style for product description */
+.product-info p {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Style for product price */
+.price {
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+}
+
+/* Style for product image */
+.product-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style for product actions */
+.product-actions {
+    margin-top: 10px;
+}
+
+/* Style for action buttons */
+.black-button {
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-right: 10px;
+    display: inline-block;
+}

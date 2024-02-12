@@ -1,0 +1,14 @@
+﻿@model RoleViewModel
+
+<h2>Добавить Роль</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Name">Введите имя</label>
+        <input asp-for="Name" class="form-control" aria-describedby="NameHelp" />
+        <small id="NameHelp" class="form-text text-muted">Введите название продукта</small>
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <button type="submit" formaction="/Admin/Role/AddRole" class="btn btn-primary">Добавь в список ролей</button>
+    <small class="text-muted"><a href="/Admin/Role/WatchRoles">Вернуться к списку ролей</a></small>
+</form>

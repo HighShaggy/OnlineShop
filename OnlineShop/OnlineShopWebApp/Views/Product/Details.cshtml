@@ -1,0 +1,44 @@
+﻿@model IEnumerable<ShopDb.Models.Product>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/ProductDetailsStyle.css")" />
+</head>
+
+@{
+    ViewBag.Title = "GameShop";
+}
+@if (Model == null || !Model.Any())
+{
+    <p>Товара с указанным номером не существует</p>
+}
+else
+{
+    @foreach (var product in Model)
+    {
+        <div class="card">
+            <img class="card-image" src="@Url.Content(product.ImagePath)" alt="Product Image">
+            <h2 class="card-title">@product.Name</h2>
+            <p class="card-description">@product.Description</p>
+            <p class="card-price">@product.Cost</p>
+            <form action="@Url.Action("AddToCompare", "Compare", new { id = product.Id })" method="post">
+                <button type="submit" class="card-button">
+                    Добавить в сравнение
+                </button>
+            </form>
+            <form action="@Url.Action("AddToCart", "Cart", new { id = product.Id })" method="post">
+                <button type="submit" class="card-button">
+                    Добавить в корзину
+                </button>
+            </form>
+            <form action="@Url.Action("AddToFavourites", "Favourites", new { id = product.Id })" method="post">
+                <button type="submit" class="card-button">
+                    Добавить в избранное
+                </button>
+            </form>
+        </div>
+    }
+}
+
+
+
+

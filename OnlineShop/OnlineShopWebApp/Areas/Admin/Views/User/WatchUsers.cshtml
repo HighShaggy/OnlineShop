@@ -1,0 +1,32 @@
+﻿@model List<UserViewModel>
+
+<h1>Список пользователей</h1>
+
+@if (Model?.Count > 0)
+{
+    <table style="border-collapse: collapse; width: 100%;">
+        <thead>
+            <tr style="background-color: #f2f2f2;">
+                <th style="border: 1px solid #ddd; padding: 8px;">ID пользователя</th>
+                <th style="border: 1px solid #ddd; padding: 8px;">Имя</th>
+                <th style="border: 1px solid #ddd; padding: 8px;">Пароль</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">@user.Id</td>
+                    <td> <a asp-controller="User" asp-action="WatchUserInfo" asp-area="Admin" asp-route-id="@user.Id">@user.Name</a></td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">@user.Password</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Список пользователей пуст.</p>
+}
+
+<a href="/Admin/User/AddUserForm" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; cursor: pointer; border-radius: 4px; text-decoration: none;">Добавить пользователя</a>

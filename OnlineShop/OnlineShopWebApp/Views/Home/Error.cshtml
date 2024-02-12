@@ -1,0 +1,10 @@
+﻿@{
+    var errorMessage = TempData["ErrorMessage"] as string;
+}
+<div>
+    @if (!String.IsNullOrEmpty(errorMessage))
+    {
+        <h2>Ошибка: @errorMessage</h2>
+    }
+    <a href="/Authorization/LoginForm">Вернуться назад</a>
+</div>

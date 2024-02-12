@@ -1,0 +1,52 @@
+﻿@model CartViewModel
+
+<head>
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/CartStyle.css")" />
+</head>
+
+@{
+    ViewData["Title"] = "Корзина";
+}
+
+<h1>Корзина</h1>
+
+@if (Model !=null)
+{
+    <table>
+        <thead>
+            <tr>
+                <th>Наименование</th>
+                <th>Изображение</th>
+                <th class="text-center">Количество</th>
+                <th>Цена за шт.</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Items)
+            {
+                <tr>
+                    <td>@item.Product.Name </td>
+                    <td><img src="@Url.Content(item.Product.ImagePath)" Width="150" /></td>
+                    <td class="text-center">
+                        <a href="@Url.Action("DecreaseQuantity","Cart", new {id = item.Product.Id})">-</a>
+                        @item.ProductQuantity
+                        <a href="@Url.Action("IncreaseQuantity","Cart", new {id = item.Product.Id})">+</a>
+                    </td>
+                    <td>@item.Product.Cost</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <form method="post" action="/Checkout" style="margin-bottom: 50px">
+        <button type="submit" formaction="/Order/WatchOrder">Оформить заказ</button>
+        <p>Общая сумма заказа: @Model.Items.Sum(item => item.ProductQuantity * item.Product.Cost)</p>
+        <a href="/Cart/ClearCart">Очистить корзину</a>
+        <br>
+        <small class="text-muted"><a href="/Home/Index">Возврат на главную страницу</a></small>
+    </form>
+}
+else
+{
+    <p>Ваша корзина пуста.</p>
+    <small class="text-muted"><a href="/Home/Index">Возврат на главную страницу</a></small>
+}

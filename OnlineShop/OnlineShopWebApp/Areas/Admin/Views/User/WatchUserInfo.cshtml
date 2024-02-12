@@ -1,0 +1,29 @@
+﻿@model UserViewModel 
+<head>
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/DropDownStyle.css")" />
+</head>
+
+<h1>Личный кабинет @Model.Name</h1>
+
+<p>Логин: @Model.Name</p>
+<p>Пароль: @Model.Password</p>
+
+<button onclick="showDropDown()" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; cursor: pointer; border-radius: 4px;">Действие</button>
+
+<div id="dropdown" style="display:none">
+    <a asp-controller="User" asp-action="EditPassword" asp-area="Admin" asp-route-id="@Model.Id">Изменить пароль</a>
+    <a asp-controller="User" asp-action="EditData" asp-area="Admin" asp-route-id="@Model.Id">Изменить данные</a>
+    <a asp-controller="Admin" asp-action="WatchUserInfo" asp-area="Admin" asp-route-id="@Model.Id">Права доступа</a>
+    <a asp-controller="User" asp-action="DeleteUser" asp-area="Admin" asp-route-id="@Model.Id">Удалить пользователя</a>
+</div>
+
+<script>
+    function showDropDown() {
+        var dropdown = document.getElementById("dropdown");
+        if (dropdown.style.display === "none") {
+            dropdown.style.display = "block";
+        } else {
+            dropdown.style.display = "none";
+        }
+    }
+</script>

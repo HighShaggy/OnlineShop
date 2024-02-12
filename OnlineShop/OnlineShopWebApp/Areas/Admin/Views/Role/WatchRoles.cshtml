@@ -1,0 +1,28 @@
+﻿@model List<RoleViewModel>
+
+<h1>Роли</h1>
+
+<table style="border-collapse: collapse; width: 100%;">
+    <thead>
+        <tr style="background-color: #f2f2f2;">
+            <th style="border: 1px solid #ddd; padding: 8px;">Имя</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var role in Model)
+        {
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 8px;">@role.Name</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">
+                    <a class="btn btn-primary" asp-controller="Role" asp-action="AddRolePanel" asp-area="Admin">Добавить</a>
+                </td>
+                @if (Model.Count > 1)
+                {
+                    <td style="border: 1px solid #ddd; padding: 8px;">
+                        <a asp-controller="Role" asp-action="RemoveRole" asp-area="Admin" asp-route-name="@role.Name">Удалить</a>
+                    </td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>

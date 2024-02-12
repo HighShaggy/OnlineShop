@@ -1,0 +1,58 @@
+﻿@model List<ProductViewModel>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/CompareStyle.css")" />
+</head>
+<body>
+    <h2>Сравнение товаров</h2>
+    @if (Model.Count != 0)
+    {
+        <div class="comparison-container">
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Изображение</th>
+                        <th>Описание</th>
+                        <th>Цена</th>
+                        <th>Действия</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var product in Model)
+                    {
+                        <tr>
+                            <td>
+                                <h3>@product.Name</h3>
+                            </td>
+                            <td>
+                                <div class="product-image">
+                                    <img src="@Url.Content(product.ImagePath)" width="150" alt="@product.Name" />
+                                </div>
+                            </td>
+                            <td>
+                                <p>@product.Description</p>
+                            </td>
+                            <td>
+                                <p class="price">@product.Cost</p>
+                            </td>
+                            <td>
+                                <a class="black-button remove-button" href="@Url.Action("RemoveCompareProduct","Compare", new {id = product.Id})">Удалить из сравнения</a>
+                                <a class="black-button add-button" href="@Url.Action("AddToCart","Cart", new {id = product.Id})">Добавить в корзину</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <a class="button-clear" href="/Compare/ClearCompareList">Очистить весь список сравнения</a>
+    }
+    else
+    {
+        <p>Список сравнения пуст</p>
+        <br>
+        <small class="text-muted"><a href="/Home/Index">Возврат на главную страницу</a></small>
+    }
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+﻿@model List<OrderViewModel>
+
+
+<h1>Список заказов</h1>
+
+@if (Model?.Count > 0)
+{
+    <table style="border-collapse: collapse; width: 100%;">
+        <thead>
+            <tr style="background-color: #f2f2f2;">
+                <th style="border: 1px solid #ddd; padding: 8px;">Имя пользователя</th>
+                <th style="border: 1px solid #ddd; padding: 8px;">Адрес</th>
+                <th style="border: 1px solid #ddd; padding: 8px;">Список товаров</th>
+                <th style="border: 1px solid #ddd; padding: 8px;">Статус заказа</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in Model)
+            {
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">@order.CustomerName</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">@order.ShippingAddress</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">@order.ProductCart
+                        <ul>
+                          
+                        </ul>
+                    </td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">
+                        <select onchange="location = this.value;">
+                            <option>@order.OrderStatus</option>
+                            <option value="/admin/admin/updateorderstatus?orderId=@order.OrderId&status=Обработан">Обработан</option>
+                            <option value="/admin/admin/updateorderstatus?orderId=@order.OrderId&status=Отправлен">Отправлен</option>
+                            <option value="/admin/admin/updateorderstatus?orderId=@order.OrderId&status=Доставлен">Доставлен</option>
+                            <option value="/admin/admin/updateorderstatus?orderId=@order.OrderId&status=Отменен">Отменен</option>
+                        </select>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Список заказов пуст.</p>
+}

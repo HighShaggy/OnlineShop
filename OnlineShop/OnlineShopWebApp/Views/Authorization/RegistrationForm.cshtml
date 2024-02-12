@@ -1,0 +1,54 @@
+﻿@model UserViewModel
+<h2 class="text-center mt-5 mb-4">Регистрация</h2>
+
+<div class="container" style="max-width: 1000px;">
+    <div class="card mt-3 shadow-lg p-3 mb-5 bg-white rounded">
+        <div class="card-body">
+            <form method="post" onsubmit="return validatePasswords();" class="form-horizontal">
+                <div class="validation" asp-validation-summary="All" class="text-danger"></div>
+                <div class="form-group row">
+                    <label for="Name" class="col-form-label col-md-2">Логин:</label>
+                    <div class="col-md-8">
+                        <input asp-for="Name" type="text" id="name" class="form-control" />
+                        <span class="text-danger" asp-validation-for="Name"> </span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="password" class="col-form-label col-md-2">Пароль:</label>
+                    <div class="col-md-8">
+                        <input asp-for="Password" type="text" id="password" class="form-control" />
+                        <span class="text-danger" asp-validation-for="Password"> </span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="confirmPassword" class="col-form-label col-md-2">Подтвердить пароль:</label>
+                    <div class="col-md-8">
+                        <input type="password" id="confirmPassword" name="ConfirmPassword" class="form-control" required />
+                        <p id="errorMessage" style="color:red;"></p>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-8 offset-md-2">
+                        <button type="submit" formaction="/Authorization/AcceptRegistration" class="btn btn-primary">Зарегистрироваться</button>
+                        <button type="button" formaction="/Authorization/LoginForm" class="btn btn-secondary ml-2" onclick="location.href=this.getAttribute('formaction')">Войти</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    function validatePasswords() {
+        var password = document.getElementById("password").value;
+        var confirmPassword = document.getElementById("confirmPassword").value;
+
+        if (password !== confirmPassword) {
+            document.getElementById("errorMessage").innerHTML = "Пароли не совпадают";
+            return false;
+        } else {
+            document.getElementById("errorMessage").innerHTML = "";
+            return true;
+        }
+    }
+</script>
