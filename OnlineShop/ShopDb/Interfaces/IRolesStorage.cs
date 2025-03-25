@@ -9,5 +9,6 @@ namespace ShopDb.Interfaces
         void AddRole([Required] string name);
         List<Role> LoadRolesList();
         void RemoveRole(string name);
+
     }
 }

@@ -33,7 +33,7 @@ namespace OnlineShopWebApp
             services.AddTransient<ICompareStorage, CompareStorage>();
             services.AddTransient<IFavouritesStorage, FavouritesStorage>();
             services.AddTransient<IUserStorage, UserStorage>();
-            //services.AddTransient<IRolesStorage, RolesStorage>();
+            services.AddTransient<IRolesStorage, RolesStorage>();
             services.AddControllersWithViews();
             services.AddDbContext<MyDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddLogging(builder =>
